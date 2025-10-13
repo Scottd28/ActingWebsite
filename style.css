@@ -1,0 +1,108 @@
+
+/* header */
+.logo{
+  position: absolute;
+  width: 40%;
+  height: 40%;
+  top: 50%;           /* adjust vertical position */
+  left: 50%;          /* adjust horizontal position */
+  transform: translate(-50%, -50%); /* center the logo */
+  margin: 0 auto; 
+  background-image: url('assets/logo.png');
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: contain; /* Ensures the full image fits */
+}
+
+.header {
+  padding: 7%;
+  text-align: center;
+  top: 0%;
+  width: 88%;
+  height: 100%;
+  position: relative;
+  background-image: url('assets/header.png');
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover; /* shows full image without stretching header */
+}
+
+.nav-link {
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: block; /* ensures width/height apply */
+}
+
+.nav-home {
+  width: 40%;
+  height: 40%;
+  left: 88%;
+  top: 30%;
+  background-image: url('assets/home.png');
+}
+
+.nav-acting {
+  width: 38%;
+  height: 38%;
+  left: 87%;
+  top: 60%;
+  background-image: url('assets/acting.png');
+}
+
+
+/* footer */
+.contact {
+  background-color: rgb(47, 44, 44);
+  color: antiquewhite;
+  width: 100%;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between; /* icons left, credit right */
+  align-items: center;
+  flex-wrap: wrap; /* makes it wrap on small screens */
+}
+
+.contact-links {
+  display: flex;
+  gap: 2rem; /* space between icons */
+  align-items: center;
+}
+
+/* ICONS */
+.contact-icon {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* Specific icons */
+.email {
+  background-image: url('assets/email.png');
+}
+
+.insta {
+  background-image: url('assets/instalogo.png');
+}
+
+.youtube {
+  background-image: url('assets/youtube.png');
+}
+
+/* Resume button */
+.resume-btn {
+  font-size: 1.2rem;
+  background: none;
+  border: 2px solid antiquewhite;
+  color: antiquewhite;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+/* Footer text */
+.footer-credit {
+  font-size: 0.9rem;
+}

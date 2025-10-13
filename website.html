@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+  
+  @font-face {
+    font-family: 'Scottfont-Regular';
+    src: url('assets/Scottfont-Regular.ttf') format('truetype');
+  }
+
+  body { 
+    font-family: 'Scottfont-Regular', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(229, 203, 175);
+  }
+/* header*/
+
+.logo{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 50%;           /* adjust vertical position */
+  left: 50%;          /* adjust horizontal position */
+  transform: translate(-50%, -50%); /* center the logo */
+  margin: 0 auto; 
+  background-image: url('/Users/scottdsg/Desktop/website/assets/logo.png');
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: contain; /* Ensures the full image fits */
+}
+
+.header {
+  padding: 7%;
+  text-align: center;
+  top: 0%;
+  width: 88%;
+  height: 100%;
+  position: relative;
+  background-image: url('assets/header.png');
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover; /* shows full image without stretching header */
+}
+
+/* main page divs */
+
+.hey{
+   position: absolute;
+  width: 40%;
+  height: 40%;
+  top: 22%;
+  left: 35%;
+
+  margin: 0 auto; 
+  background-image: url('assets/hey.png');
+  background-position: right; 
+  background-repeat: no-repeat;
+  background-size: contain; /* Ensures the full image fits */
+}
+.frame{
+  position: absolute;
+  width: 80%;
+  height: 80%;
+  left: 5%;
+  top: 22%;
+
+  margin: 0 auto; 
+  background-image: url('assets/frame.png');
+  background-position: left; 
+  background-repeat: no-repeat;
+  background-size: contain; /* Ensures the full image fits */
+}
+
+
+.headshot{
+  position: absolute;
+  width: 53%;
+  height: 53%;
+  left: 11%;
+  top: 35%;
+
+  margin: 0 auto; 
+  background-image: url('assets/headshot.jpeg');
+  background-position: left; 
+  background-repeat: no-repeat;
+  background-size: contain; /* Ensures the full image fits */
+  
+}
+
+.contact{
+  position: absolute;
+  width: 102.5%;
+  height: 50%;
+  /* top: 120%;
+  left: 15%; */
+  transform: translate(0%, 160%); /* center the logo */
+  
+  background-color: rgb(47, 44, 44);
+}
+
+.contactImage{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  scale: 100%;
+  /* top: 120%;
+  left: 15%; */
+  transform: translate(5%, 0%); /* center the logo */
+  background-image: url('assets/contact.png');
+  background-position: left; 
+  background-repeat: no-repeat;
+}
+
+</style> <!-- divs start here -->
+</head>
+<body>
+<div class = header> 
+<div class = logo></div>
+<a href="website.html" style=" position: absolute; width: 40%; height: 40%;left: 88%; top: 30%; margin: 0 auto; background-image: url('/Users/scottdsg/Desktop/website/assets/home.png'); background-position: left; background-repeat: no-repeat; background-size: contain; /* Ensures the full image fits */"></a>
+<a href="acting.html" style="  position: absolute; width: 38%;height: 38%;left: 87%; top: 60%; margin: 0 auto;  background-image: url('/Users/scottdsg/Desktop/website/assets/acting.png'); background-position: left;  background-repeat: no-repeat; background-size: contain; /* Ensures the full image fits */"></a>
+</div>
+
+<!-- main class divs -->
+<div> 
+<div class = headshot></div> 
+<div class = frame></div> 
+<div class = hey>
+  <h1 style= "position: absolute;  top: 68%; left: 25%;" ;> so about me...</h1>
+  <h1 style= "position: absolute; width: 120%; height: 100%; top: 78%; left: 25%; line-height: 1.7;" ;> I am a theatre artist in SLC, UT! I value storytelling and truthfulness in theatre. You can always catch me singing or dancing while taking a walk around sugarhouse!!!  </h1>
+  <p style= "position: absolute; width: 140%; height: 100%; top: 148%; left: 25%;" >but please contact me with the links in the contact form :|</p>
+</div>
+<div class = contact>
+  <div class = contactImage></div>
+  <a href="mailto:scottalvaro@icloud.com" style="position: absolute; top: -21%; left: 16.3%; background-image: url('/Users/scottdsg/Desktop/website/assets/email.png'); height: 100%; width: 100%; scale: 24%; background-repeat: no-repeat;"></a>
+  <a href="https://www.instagram.com/scottsaurus/" style="background-image: url('/Users/scottdsg/Desktop/website/assets/instalogo.png'); position: absolute; top: -122%; left: 16%; height: 300%; width: 100%; scale: 7%; background-repeat: no-repeat;" target="_blank"></a>
+  <a href="https://www.youtube.com/@ScottDSG" style="background-image: url('/Users/scottdsg/Desktop/website/assets/youtube.png'); position: absolute; top: -108%; left: 28%; height: 300%; width: 100%; scale: 15%; background-repeat: no-repeat;" target="_blank"></a>
+  <button onclick="window.open('/Users/scottdsg/Desktop/website/assets/resume.pdf');" style="font-size: xx-large; position: absolute; left: 79.5%; top: 22%;"> resume</button>
+  <p style="position: absolute; top: 40%; left: 70%; color: antiquewhite;"> website coded by @scottdsg</p>
+
+</div>
+
+</div>
+</body>
+</html>
